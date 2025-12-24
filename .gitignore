@@ -12,6 +12,35 @@ dist
 dist-ssr
 *.local
 
+# Vite 관련
+.vite
+
+# 환경 변수
+# .env
+# .env.*
+# !.env.example
+
+# pnpm 관련
+.pnpm-debug.log*
+
+# 테스트 / 커버리지
+coverage
+
+# MSW
+# 예외 (커밋해도 되는 경우)
+## Storybook과 MSW를 강하게 엮는 프로젝트
+## QA/기획자가 MSW 기반으로 테스트하는 조직
+mockServiceWorker.js
+
+# OS / 에디터 보강
+Thumbs.db
+
+# PWA build artifacts
+sw.js
+sw.js.map
+workbox-*.js
+workbox-*.js.map
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
